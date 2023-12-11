@@ -8,20 +8,20 @@ body {
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
-  overflow: hidden; /* Dodajte overflow: hidden kako bi spriječili scroll */
+  overflow: hidden; 
 }
 
 #canvas {
   display: flex;
-  width: 100%; /* Koristi 100% širine roditeljskog kontejnera */
-  height: 100%; /* Koristi 100% visine roditeljskog kontejnera */
+  width: 100%; 
+  height: 100%; 
   align-items: center;
-  justify-content: center; /* Centriranje igre */
+  justify-content: center; 
   border: 5px solid black;
 }
 
 #resetGameButton {
   position: fixed;
-  top: 2%; /* Postavi udaljenost od vrha na 2% visine prozora */
-  left: 2%; /* Postavi udaljenost od lijevog ruba na 2% širine prozora */
+  top: 2%; 
+  left: 2%; 
 }
